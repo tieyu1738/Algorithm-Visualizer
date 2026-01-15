@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>算法可视化</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header><h1>算法可视化工具</h1><p>我的第一个GitHub项目</p></header>
+<main>
+<div class="controls">
+<select id="algo"><option value="bubble">冒泡排序</option><option value="dijkstra">最短路径(Dijkstra)</option></select>
+<button id="gen">生成新数据</button><button id="play">播放</button><button id="reset">重置</button>
+速度: <input type="range" id="speed" min="1" max="100" value="50">
+</div>
+<canvas id="canvas" width="800" height="500"></canvas>
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
